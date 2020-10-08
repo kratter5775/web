@@ -1,0 +1,172 @@
+table {
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 1px solid black;
+}
+
+.table2 {
+    width: 480px;
+    background-color: ghostwhite;
+}
+
+.table2 th {
+    background-color: yellow;
+}
+
+.table2  td:first-of-type {
+    
+    background-color: skyblue;
+}
+
+.table2 tr:last-of-type td {
+    background-color: green;
+    font-weight: bold;
+}
+
+
+.table3 {
+    color: skyblue;
+    border: solid 1px skyblue;
+    border-collapse: separate;
+}
+
+.table3 th {
+    border: skyblue solid 2px;
+    font-weight: normal;
+}
+
+.table3 td {
+    border: skyblue solid 2px;
+    font-size: smaller;
+}
+
+
+
+.table4 table{
+	text-transform: uppercase;
+    border-collapse: collapse;
+}
+
+.table4 th{
+	border: 3px solid brown;
+	text-align: left;
+	vertical-align: top;
+}
+
+.table4 td{
+	border: 3px solid brown;
+	text-align: left;
+	vertical-align: top;
+
+	background-color: beige;
+}
+
+.table4 .head{
+	padding:25px;
+
+	color:orange;
+	background-color: mediumblue;
+}
+
+.table4 .menu td{
+	text-align: center;
+    width:100px;
+	height:10px;
+	padding:5px;
+}
+
+.table4 .main td{
+	height:200px;
+	padding:25px;
+}
+
+
+
+
+.table5 table{
+	border-collapse: collapse;
+	text-transform: uppercase; 
+}
+
+.table5 th{
+	border: 5px solid darkseagreen;
+	text-align: left;
+	vertical-align: top;
+}
+
+.table5 td{
+	border: 5px solid darkseagreen;
+	text-align: left;
+	vertical-align: top;
+}
+
+.table5 .head{
+	width:150px;
+	padding:20px;
+    background: darkgreen;
+	color: yellow;
+}
+
+.table5 .menu{
+	width:150px;
+	text-align: center;
+	vertical-align: middle;
+	background-color: yellowgreen;
+}
+
+.table5 .main{
+	padding:50px;
+	width:250px;
+	height:250px;
+	background: #daddc7;
+}
+
+
+
+
+.table6 table{
+	border-collapse: collapse; 
+	text-transform: uppercase;
+}
+
+.table6 th{
+	border: 5px solid darkred;
+	text-align: left;
+	vertical-align: top;
+	padding:20px;
+}
+
+.table6 td{
+	border: 5px solid darkred;
+	text-align: left;
+	vertical-align: top;
+}
+
+.table6 .head{
+	padding:40px;
+	width:200px;
+}
+
+.table6 .menu{
+	padding-top:10px;
+	padding-left:40px;
+	height:60px;
+}
+
+.table6 .main{
+	padding: 40px;
+	height:150px;
+
+	font-size: 50px;
+	
+}
+
+.table6 .news{
+	width:150px;
+	text-align: center;
+	vertical-align: middle;
+	
+	;
+}
